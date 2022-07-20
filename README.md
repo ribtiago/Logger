@@ -6,10 +6,6 @@ This Logger framework simplifies the use of Apple's OSLog and works as an aggreg
 
 To start using Logger, just add the Logger.framework to the project and you're ready to start.
 
-### Carthage
-
-TODO: Do carthage
-
 ## Best practices
 
 In general, we should:
