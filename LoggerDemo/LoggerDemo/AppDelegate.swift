@@ -5,7 +5,7 @@
 
 
 import UIKit
-import Logger
+import LoggerKit
 
 typealias AppLogger = Logger
 

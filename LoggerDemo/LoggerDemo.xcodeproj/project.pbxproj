@@ -3,16 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0290A26D2CDE62E600C330C6 /* LoggerKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0290A26C2CDE62E600C330C6 /* LoggerKit */; };
 		9F0BF0302270780200ED399B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0BF02F2270780200ED399B /* AppDelegate.swift */; };
 		9F0BF0322270780200ED399B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0BF0312270780200ED399B /* ViewController.swift */; };
 		9F0BF0372270780200ED399B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F0BF0362270780200ED399B /* Assets.xcassets */; };
 		9F0BF03A2270780200ED399B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0BF0382270780200ED399B /* LaunchScreen.storyboard */; };
 		9F0E7A1F2279EE1B00C05BE4 /* CategorisedLoggingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E7A1E2279EE1B00C05BE4 /* CategorisedLoggingViewController.swift */; };
-		9FC6809025687B9200746FD4 /* Logger in Frameworks */ = {isa = PBXBuildFile; productRef = 9FC6808F25687B9200746FD4 /* Logger */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,6 @@
 		9F0BF0392270780200ED399B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F0BF03B2270780200ED399B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F0E7A1E2279EE1B00C05BE4 /* CategorisedLoggingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorisedLoggingViewController.swift; sourceTree = "<group>"; };
-		9FE6A3912270782D00E5AF83 /* Logger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Logger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,7 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FC6809025687B9200746FD4 /* Logger in Frameworks */,
+				0290A26D2CDE62E600C330C6 /* LoggerKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,7 +40,6 @@
 		9F0BF0232270780200ED399B = {
 			isa = PBXGroup;
 			children = (
-				9FE6A3912270782D00E5AF83 /* Logger.framework */,
 				9F0BF02E2270780200ED399B /* LoggerDemo */,
 				9F0BF02D2270780200ED399B /* Products */,
 				9FC6808E25687B9200746FD4 /* Frameworks */,
@@ -93,7 +91,7 @@
 			);
 			name = LoggerDemo;
 			packageProductDependencies = (
-				9FC6808F25687B9200746FD4 /* Logger */,
+				0290A26C2CDE62E600C330C6 /* LoggerKit */,
 			);
 			productName = LoggerDemo;
 			productReference = 9F0BF02C2270780200ED399B /* LoggerDemo.app */;
@@ -123,6 +121,9 @@
 				Base,
 			);
 			mainGroup = 9F0BF0232270780200ED399B;
+			packageReferences = (
+				0290A2692CDE624C00C330C6 /* XCLocalSwiftPackageReference "../../Logger" */,
+			);
 			productRefGroup = 9F0BF02D2270780200ED399B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -346,10 +347,18 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		0290A2692CDE624C00C330C6 /* XCLocalSwiftPackageReference "../../Logger" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Logger;
+		};
+/* End XCLocalSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
-		9FC6808F25687B9200746FD4 /* Logger */ = {
+		0290A26C2CDE62E600C330C6 /* LoggerKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = Logger;
+			package = 0290A2692CDE624C00C330C6 /* XCLocalSwiftPackageReference "../../Logger" */;
+			productName = LoggerKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

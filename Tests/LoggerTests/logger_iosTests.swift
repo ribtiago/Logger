@@ -1,5 +1,5 @@
 import XCTest
-@testable import Logger
+@testable import LoggerKit
 
 final class logger_iosTests: XCTestCase {
     func testExample() {

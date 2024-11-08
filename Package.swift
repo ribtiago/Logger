@@ -4,22 +4,22 @@
 import PackageDescription
 
 let package = Package(
-    name: "Logger",
+    name: "LoggerKit",
     platforms: [
         .macOS(.v10_14),
         .iOS(.v12)
     ],
     products: [
         .library(
-            name: "Logger",
-            targets: ["Logger"]),
+            name: "LoggerKit",
+            targets: ["LoggerKit"]),
     ],
     targets: [
         .target(
-            name: "Logger",
+            name: "LoggerKit",
             dependencies: []),
         .testTarget(
             name: "LoggerTests",
-            dependencies: ["Logger"]),
+            dependencies: ["LoggerKit"]),
     ]
 )
