@@ -1,10 +1,10 @@
-# Logger
+# LoggerKit
 
-This Logger framework simplifies the use of Apple's OSLog and works as an aggregator for other frameworks.
+This LoggerKit swift package simplifies the use of Apple's OSLog and works as an aggregator for other frameworks.
 
 ## Getting Started
 
-To start using Logger, just add the Logger.framework to the project and you're ready to start.
+To start using LoggerKit, just add the Swift Package to the project and you're ready to start.
 
 ### Carthage
 
@@ -82,10 +82,10 @@ error   | fault
 
 ### Importing
 
-Import the Logger into your AppDelegate file.
+Import the LoggerKit into your AppDelegate file.
 
 ```
-import Logger
+import LoggerKit
 ```
 
 Hint: to make Logger available throughout your files without importing it everywhere, use typealias and rename Logger to AppLogger. Start using AppLogger everywhere 👌🏼
