@@ -6,10 +6,6 @@ This LoggerKit swift package simplifies the use of Apple's OSLog and works as an
 
 To start using LoggerKit, just add the Swift Package to the project and you're ready to start.
 
-### Carthage
-
-TODO: Do carthage
-
 ## Best practices
 
 In general, we should:
